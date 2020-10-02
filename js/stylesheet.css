@@ -13,6 +13,10 @@
 .box-shadow-lr {
   box-shadow: -5px 0 3px -5px #333, 5px 0 3px -5px #333;
 }
+
+.shadow-text {
+	text-shadow: 2px 2px 2px #AABEC6;
+}
 .bgimg1,.bgimg2,.bgimg3 {
   position: relative;
   opacity: 0.8;

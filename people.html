@@ -20,10 +20,10 @@
 
 <body>
    <!--canvas container-->
-   <div class="fluid-container" style="background-color: #53284F;">
+   <div class="fluid-container" style="background-color: #53284F; min-height: 100vh;">
 
     <!--fullscreen container-->
-    <div class="container bg-light p-0 h-100">
+    <div class="container bg-light p-0" style="min-height: 100vh;">
 
       <!--content container-->
       <div class="container bg-light h-auto">
@@ -95,42 +95,11 @@
           <!--information container-->
           
           <!--staff container-->
-          <div class="container p-2">
-            <div class="row">
-              
-              <div class="col-lg">
 
-                <!--staff container stephen's link ->"http://scholar.google.com/citations?user=117h3CAAAAAJ&hl=en"-->
-                <div class="card text-left">
-                  <div class="card-body">
-                    <img class="img-thumbnail rounded-circle float-right" src="images/stephenmontgomery_small.jpg" style="width: 120px; height: 140px;"/>
-                    <p class="lead"><strong><a href="http://scholar.google.com/citations?user=117h3CAAAAAJ&hl=en">Stephen Montgomery, PhD</a></strong>
-                    <br><small class="text-muted">Principal Investigator<br>smontgom@stanford.edu<br>Twitter: <a href="https://twitter.com/sbmontgom">@sbmontgom</a></small></p>
-                  </div>
-                  
-                  
-                </div>
-                <!--smontgomery container-->
-              </div>
-              <div class="col-lg">
-                <!--ksmith container-->
-                <div class="card text-left">
-                  <div class="card-body">
-                    <img class="img-thumbnail rounded-circle float-right" src="images/kevin_smith.jpg" style="width: 120px; height: 140px;"/>
-                    <p class="lead">
-                      <strong><a class="person" id="kssmith" href="/person.html">Kevin Smith, PhD</a></strong><br>
-                      <small class="text-muted">
-                        Scientist<br>
-                        kssmith@stanford.edu<br>
-                        Twitter: <a href="https://twitter.com/kssmith19">@kssmith19</a>
-                      </small>
-                    </p>
-                  </div> 
-                </div>
-                <!--ksmith container-->
-              </div>
+            <div class="d-flex justify-content-between" id="staff">
+              
             </div>    
-          </div>
+
           <!--staff container-->
 
           <!--postdoc container-->
@@ -210,7 +179,7 @@
               </div>
               <div class="row">
                 <div class="col-md-12">
-					<div class="container">
+					<div class="container" id='honortitle'>
 						<p><h3 class="shadow-text">Current honorary lab members</h2></p>
 					</div>
                   
