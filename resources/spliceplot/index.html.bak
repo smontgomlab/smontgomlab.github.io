@@ -84,7 +84,7 @@ alternative splicing events from .bam, .gtf, and .vcf files.</p>
 <h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
 <ol class="arabic simple">
 <li>Install the above dependencies.</li>
-<li>Download the <a class="reference external" href="https://github.com/wueric/SplicePlot/archive/master.zip">SplicePlot.zip</a> and unpack the archive in the desired directory</li>
+<li>Download the <a class="reference external" href="https://github.com/wueric/SplicePlot/archive/master.zip">SplicePAlot.zip</a> and unpack the archive in the desired directory</li>
 <li>Check if all of the necessary Python packages are available by running the command <tt class="docutils literal"><span class="pre">python</span> <span class="pre">check_module_availability.py</span></tt> in the <em>SplicePlot</em> directory.</li>
 </ol>
 </div>
@@ -536,5 +536,5 @@ snia000899      GT      0.0153061224489796      0.512244897959184       0.472448
         &copy; Copyright 2013, Eric Wu.
       Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b1.
     </div>
-  <script type="text/javascript" src="../../js/bundle.js"></script></body>
+  </body>
 </html>
