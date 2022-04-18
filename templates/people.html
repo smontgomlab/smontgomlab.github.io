@@ -27,11 +27,13 @@
 
       <!--content container-->
       <div class="container bg-light h-auto">
-  
+        <a href="#postdocs" class="postdoc-section">Postdocs</a>
+        <a href="#grads" class="graduate-section">Graduates</a>
         <!--banner container-->
         <div class="container" style="padding-top: 5px;">
           <div class="row">
             <div class="col-sm">
+            
               <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand text-center" style="font-size: 14px;"><h2 style="text-shadow: 2px 2px 2px #AABEC6;"><u>MontgomeryLab</u></h2><p class="shadow-text">Stanford University at School of Medicine</p></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-controls="headernav" aria-expanded="false" aria-label="Toggle navigation">
@@ -93,24 +95,22 @@
           
           <!--staff container-->
 
-            <div class="d-flex justify-content-between mb-4" id="staff">
+            <div class="d-flex flex-wrap justify-content-start mb-4" id="staff">
               
             </div>    
 
           <!--staff container-->
 
           <!--postdoc container-->
-          <div class="card shadow-sm mx-2 mb-4" id="postdocs">
-            <div class="card-header">
-              <div class="row">
-                <div class="col-sm">
+          <div class="shadow-sm mx-2 mb-4" id="postdocs">
+            <div class="card-header border">
+              
                 <div class="container text-center">
                   <p class="lead mt-3 shadow-text" style="font-size: 175%;"><b>Postdocs</b></p>
                 </div>
-                </div>
-              </div>
+              
             </div>
-            <div class="card-body">
+            <div class="card-body" style="background-color: white;">
               <div class="d-flex flex-wrap justify-content-between p-0 m-0" id="postdocsbody">
       
               </div>
@@ -121,20 +121,20 @@
             
 
               <!--graduates container-->
-              <div class="card shadow-sm mx-2 mb-4">
+              <div class="shadow-sm mx-2 mb-4">
                 <!--graduate header container-->
-                <div class="card-header">
+                <div class="card-header border">
                   
                       <div class="container text-center">
                         
-                          <p class="lead mt-3 shadow-text" style="font-size: 175%;"><b>PhD Students</b></p>    
+                          <p class="lead mt-3 shadow-text" style="font-size: 175%;"><b>Graduate Students</b></p>    
                         
                       </div>
                   
                 </div>
                 <!--graduate header container-->
                 
-                <div class="card-body">
+                <div class="card-body" style="background-color: white;">
                   <div class="flex-row d-flex flex-wrap justify-content-md-center justify-content-sm-around" id="grads">
                     
                     
@@ -176,7 +176,7 @@
               </div>
               <div class="row">
                 <div class="col-md-12">
-					<div class="container" id='honortitle'>
+					<div class="container" id='honortitle' style="display: none;">
 						<p><h3 class="shadow-text">Current honorary lab members</h2></p>
 					</div>
                   
@@ -198,41 +198,8 @@
 
                 <div class="container">
                   <div id="carouselControl" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item"id="pic2013">
-                        <img class="d-block w-100" src="images/lab2013.jpg" alt="Fourth slide">
-                        <div class="carousel-caption d-none d-md-block">
-                          <div class="container text-center" style="width: 30%;">
-                            <p class="lead text-dark bg-white rounded-circle shadow-text" style="font-size: 30px; padding-bottom: 5px;"><b>2013</b></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item"id="pic2014">
-                        <img class="d-block w-100" src="images/lab2014.jpg" alt="Third slide">
-                        <div class="carousel-caption d-none d-md-block">
-                          <div class="container text-center" style="width: 30%;">
-                            <p class="lead text-dark bg-white rounded-circle shadow-text" style="font-size: 30px; padding-bottom: 5px;"><b>2014</b></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item"id="pic2015">
-                        <img class="d-block w-100" src="images/lab2015.jpg" alt="Second slide">
-                        <div class="carousel-caption d-none d-md-block">
-                          <div class="container text-center" style="width: 30%;">
-                            <p class="lead text-dark bg-white rounded-circle shadow-text" style="font-size: 30px; padding-bottom: 5px;"><b>2015</b></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item active" id="pic2016">
-                        <img class="d-block w-100" src="images/lab2016.jpg" alt="First slide">
-                        <div class="carousel-caption d-none d-md-block">
-                          <div class="container text-center" style="width: 30%;">
-                            <p class="lead text-dark bg-white rounded-circle shadow-text" style="font-size: 30px; padding-bottom: 5px;"><b>2016</b></p>
-                          </div>
-                          
-                        
-                        </div>
-                      </div>
+                    <div class="carousel-inner" id="labphotos">
+                      
                       
                     </div>
                     <a class="carousel-control-prev" href="#carouselControl" role="button" data-slide="prev">
@@ -286,6 +253,6 @@
     <!--fullscreen container-->
   </div>
   <!--canvas container-->
-<script type="text/javascript" src="js/bundle.js"></script></body>      
+<script type="text/javascript" src="../js/bundle.js"></script></body>      
 
 <!-- InstanceEnd --></html>

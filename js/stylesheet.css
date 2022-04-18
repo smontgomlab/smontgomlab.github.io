@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .box-shadow-right {
   box-shadow: 5px 0 3px -5px #333;
 }
@@ -40,6 +44,44 @@
   
   max-width: auto;
 }
+
+.postdoc-section{
+  background-color: blanchedalmond;
+  position: absolute;
+  padding: 0.5rem 1.5rem;
+  top: 2.5rem;
+  left: 0.5rem;
+  transform: translateY(-200%);
+  transition: transform 325ms ease-in;
+}
+.postdoc-section:focus{
+  transform: translateY(0);
+}
+.graduate-section{
+  background-color: blanchedalmond;
+  position: absolute;
+  padding: 0.5rem 1.5rem;
+  left: 0.5rem;
+  top: 2.5rem;
+  transform: translateY(-200%);
+  transition: transform 325ms ease-in;
+}
+.graduate-section:focus{
+  transform: translateY(0);
+}
+
+.nav-link{
+  color: inherit;
+}
+
+.gradient-title{
+  background-image: linear-gradient(rgba(255,255,255,0),rgba(248, 249, 250,.8), rgba(248, 249, 250,1),rgba(248, 249, 250,1));
+}
+
+.gradient-carousel-label{
+  background-image: linear-gradient(rgba(255,255,255,0),rgba(248, 249, 250,.7),rgba(248, 249, 250,.8),rgba(248, 249, 250,.7),rgba(255,255,255,0));
+}
+
 body::before {
 content: "";
 position: fixed;
@@ -50,3 +92,67 @@ height: 60px;
 box-shadow: 0px 0 60px rgba(0, 0, 0, 1);
 z-index: 100;
 }
+
+
+.card:hover{
+  transform: scale(1.01);
+}
+
+
+/**
+.card {
+  color: rgb(0, 0, 0);
+  
+  background-size: cover;
+  padding: 10rem 0 0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: 100%;
+  transition: transform 500ms ease;
+}
+
+
+
+.resource-content{
+  --padding: 1.5rem;
+  padding: var(--padding);
+  background: linear-gradient(
+    hsl(0 0% 100% / 0),
+    hsl(20 0% 100% / 0.5) 20%,
+    hsl(0 0% 100% / 1)
+  );
+  transform: translateY(35%);
+  transition: 500ms ease;
+}
+
+.resource:hover .resource-content{
+  transform: translateY(0);
+}
+
+
+
+.card-title{
+  position: relative;
+  width: max-content;
+}
+
+
+.card-title::after {
+  content:"";
+  position: absolute;
+  height: 2px;
+  left: calc(var(--padding)* -1);
+  bottom: -3px;
+  
+  width: calc(100% + var(--padding));
+  background: rgb(46, 150, 235);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 500ms ease;
+}
+
+
+.card:hover .card-title::after{
+  transform: scaleX(1);
+}
+**/
