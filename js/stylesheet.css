@@ -19,7 +19,8 @@ html {
 }
 
 .shadow-text {
-	text-shadow: 2px 2px 2px #AABEC6;
+	
+  text-shadow: 2px 2px 2px #ffffff;
 }
 .bgimg1,.bgimg2,.bgimg3 {
   position: relative;
