@@ -99,7 +99,17 @@ z-index: 100;
   transform: scale(1.01);
 }
 
+.thumbnail{
 
+  img:hover{
+    cursor: pointer;
+  }
+}
+
+.grey-text{
+  font-size:small;
+  color: #828282;
+}
 /**
 .card {
   color: rgb(0, 0, 0);
